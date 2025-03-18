@@ -1,0 +1,74 @@
+.upload-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .upload-container h2 {
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .upload-container input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f7f7f7;
+  }
+  
+  .upload-container input[type="text"],
+  .upload-container textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #f7f7f7;
+    resize: vertical;
+  }
+  
+  .upload-container textarea {
+    min-height: 100px;
+  }
+  
+  .upload-container button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-container button:hover {
+    background-color: #45a049;
+  }
+  
+  .upload-container p {
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
+  .upload-container input[type="file"]:focus,
+  .upload-container input[type="text"]:focus,
+  .upload-container textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+  }
+  

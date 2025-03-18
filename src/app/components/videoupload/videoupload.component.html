@@ -1,0 +1,17 @@
+<div class="upload-container">
+    <h2>Upload Video</h2>
+    
+    <input type="file" (change)="onFileSelected($event)">
+    <br><br>
+  
+    <input type="text" [(ngModel)]="title" placeholder="Enter video title">
+    <br><br>
+  
+    <textarea [(ngModel)]="description" placeholder="Enter video description"></textarea>
+    <br><br>
+  
+    <button (click)="uploadVideo()">Upload</button>
+  
+    <p *ngIf="uploadMessage">{{ uploadMessage }}</p>
+  </div>
+  
